@@ -1,0 +1,121 @@
+* {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Titillium Web', sans-serif;
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   
+}
+html{ 
+   font-size: 1rem;
+}
+h1{
+   text-transform: uppercase;
+}
+/* navbar */
+.box{
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+}
+#nav{
+   justify-content: center;
+}
+.navbar {
+   width: 100%;
+   height: auto;
+  
+}
+.navbar-menu {
+   display: flex;
+   flex-direction: column;
+  
+}
+.navbar img {
+   padding: 40px 10px 10px 0;
+   width: 50%;
+}
+
+/* nav-menu */
+.navbar-menu {
+   padding: 50px 10px 10px;
+}
+
+li a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: black;
+}
+
+li a:hover {
+   color: darkgreen;
+}
+
+.abaout-box {
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 100px;
+}
+
+.abaout-box li {
+   display: inline-block;
+   margin: 30px 5px 5px;
+}
+
+.abaout-box li a {
+   padding: 6px 9px;
+   border-radius: 50%;
+   background-color: darkgreen;
+   color: white;
+}
+
+/*  */
+.content img {
+   width: 100%;
+   height: 100vh;
+   object-fit: cover;
+}
+
+/* About */
+.about img{
+width: 100%;
+}
+
+/* blog */
+.blog img{
+   width: 100%;
+}
+
+/* Contact İcon */
+.contact-icon{
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+}
+.contact-icon li{
+   margin-right: 10px;
+}
+
+/* footer */
+.footer-icon{
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+}
+.footer-icon li{
+   margin-right: 10px;
+}
+
+@media screen and (width:400px) {
+   .box{
+      position: sticky;
+   }
+    img {
+      width: 25%;
+   }
+   html{
+      font-size: 0.5rem;
+   }
+}
